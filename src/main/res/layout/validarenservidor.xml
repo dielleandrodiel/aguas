@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:baselineAligned="true">
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/baneractdl"
+                    android:drawableTop="@drawable/bactualizard"
+                    android:ellipsize="none"
+                    android:background="@android:color/transparent"
+                    android:textColor="#3e20ff"
+                    android:paddingBottom="15dp"/>
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+            </TableRow>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="30dp">
+
+            <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Usuario"
+                    android:textSize="@android:dimen/app_icon_size"
+                    android:layout_below="@+id/baneractdl"
+                    android:layout_alignParentLeft="true"
+                    android:layout_weight="1"/>
+
+            <EditText
+                    android:id="@+id/usuarioserver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@android:dimen/app_icon_size"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/textView1"
+                    android:layout_above="@+id/textView2"
+                    android:width="20dp"
+                    android:layout_weight="1"
+                    android:inputType="text"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="30dp">
+
+            <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Clave"
+                    android:textSize="@android:dimen/app_icon_size"
+                    android:layout_above="@+id/claveserver"
+                    android:layout_alignParentLeft="true"
+                    android:layout_weight="1"/>
+
+            <EditText
+                    android:id="@+id/claveserver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:password="true"
+                    android:textSize="@android:dimen/app_icon_size"
+                    android:layout_above="@+id/create_progress"
+                    android:width="20dp"
+                    android:layout_weight="1"
+                    />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <Button
+                    android:id="@+id/ip_boton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Actualizar Sistema"
+                    android:drawableTop="@drawable/actualizar"
+                    android:background="@android:color/transparent"
+                    android:textColor="#3e20ff"
+                    android:layout_weight="1"
+                    android:textSize="40dp"/>
+            <Button
+                    android:id="@+id/ip_volver"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="volverservidor"
+                    android:text="Volver"
+                    android:drawableTop="@drawable/enviar"
+                    android:ellipsize="none"
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:textSize="40dp"
+                    android:textColor="#2218ff"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textView"
+                    android:textSize="10dp"
+                    android:textIsSelectable="false"
+                    android:textStyle="bold"
+                    android:textColor="#ff1e20"
+                    android:visibility="invisible"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent">
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

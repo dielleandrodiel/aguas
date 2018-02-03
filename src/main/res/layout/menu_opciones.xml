@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity" >
+
+    <TextView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="MENU DE OPCIONES"
+            android:textStyle="bold|italic"
+            android:textColor="#010001"
+            android:textSize="15dp"
+            android:textIsSelectable="false"/>
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/imageView1" >
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+            <Button
+                    android:id="@+id/button"
+                    android:onClick="toma_lectura"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="TOMAR LECTURAS" />
+
+            <Button
+                    android:id="@+id/button2"
+                    android:onClick="descargar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-2dp"
+                    android:text="DESCARGAR DATOS" />
+
+            <Button
+                    android:id="@+id/button3"
+                    android:onClick="enviar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-2dp"
+                    android:text="ENVIAR DATOS" />
+
+            <Button
+                    android:id="@+id/sale"
+                    android:onClick="salir_lecturas"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MENU PRINCIPAL" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

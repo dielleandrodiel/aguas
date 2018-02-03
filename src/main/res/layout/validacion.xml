@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:baselineAligned="true">
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/banerval"
+                    android:drawableTop="@drawable/bvalidarusr"
+                    android:ellipsize="none"
+                    android:background="@android:color/transparent"
+                    android:textColor="#3e20ff"
+                    >
+            </Button>
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+            </TableRow>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Usuario"
+                    android:id="@+id/textView2"
+                    android:layout_weight="1"
+                    android:textSize="65dp"
+                    android:textIsSelectable="false"/>
+
+            <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/usuario"
+                    android:layout_weight="1"
+                    android:textSize="80dp"
+                    android:inputType="text"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="0dp">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Clave"
+                    android:id="@+id/textView3"
+                    android:layout_weight="1"
+                    android:textSize="65dp"
+                    android:textIsSelectable="false"
+                    android:paddingTop="0dp"/>
+
+            <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text|textPassword"
+                    android:ems="10"
+                    android:id="@+id/clave"
+                    android:layout_weight="1"
+                    android:textSize="80dp"
+                    android:textIsSelectable="false"
+                    android:paddingTop="0dp"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="0dp">
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="INGRESAR"
+                    android:id="@+id/button"
+                    android:layout_weight="1"
+                    android:ellipsize="middle"
+                    android:onClick="ingresar"
+                    android:drawableTop="@drawable/entrar"
+                    android:background="@android:color/transparent"
+
+                    android:textSize="50dp"/>
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="VOLVER"
+                    android:id="@+id/button23"
+                    android:layout_weight="1"
+                    android:ellipsize="middle"
+                    android:onClick="salirval"
+                    android:drawableTop="@drawable/enviar"
+                    android:background="@android:color/transparent"
+
+                    android:textSize="50dp"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent">
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

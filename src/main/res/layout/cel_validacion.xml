@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content" android:text="VALIDACION DE USUARIO"
+              android:textSize="20dp" android:textColor="#010001"
+              android:paddingBottom="5dp"
+              android:textStyle="bold|italic"/>
+    <!-- inicia el ScrollView -->
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <!-- se colocal el LinearLayout que contendra el formulario -->
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+            <TextView android:text="NOMBRE DE USUARIO" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText android:id="@+id/usuario" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:textSize="25dp"
+                      android:textIsSelectable="false"/>
+            <TextView android:text="CONTRASEÑA" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText android:inputType="text|textPassword" android:id="@+id/clave" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:textSize="25dp"/>
+
+            <Button  android:text="INGRESAR"
+                     android:id="@+id/button"
+                     android:onClick="ingresar" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <Button android:text="VOLVER"
+                    android:id="@+id/button23"
+                    android:onClick="salirval" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

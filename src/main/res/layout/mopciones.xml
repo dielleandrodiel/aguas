@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1">
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/baner"
+                android:drawableTop="@drawable/banner2"
+                android:ellipsize="none"
+                android:background="@android:color/transparent"
+                android:textColor="#3e20ff"
+                >
+        </Button>
+    </LinearLayout>
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <Button
+                    android:id="@+id/validar"
+                    android:drawableTop="@drawable/password"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:text="INGRESAR"
+                    android:onClick="validar"
+                    android:background="@android:color/transparent"
+                    android:textSize="30dp"
+                    android:textColor="#3e20ff">
+            </Button>
+
+            <Button
+                    android:id="@+id/actualizar"
+                    android:drawableTop="@drawable/actualizar"
+                    android:layout_weight="1"
+                    android:text="ACTUALIZAR DATOS"
+                    android:onClick="actualizar"
+                    android:background="@android:color/transparent"
+                    android:textSize="30dp"
+                    android:textColor="#d05042">
+            </Button>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <Button
+                    android:id="@+id/button"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:background="@android:color/transparent"
+                    android:textColor="#3e20ff"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/button2"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:background="@android:color/transparent"
+                    android:textColor="#3e20ff"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <Button
+                    android:id="@+id/servidor"
+                    android:drawableTop="@drawable/servidor"
+                    android:layout_weight="1"
+                    android:text="SERVIDOR DE DATOS"
+                    android:onClick="server"
+                    android:background="@android:color/transparent"
+                    android:textSize="30dp"
+                    android:textColor="#050303">
+            </Button>
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

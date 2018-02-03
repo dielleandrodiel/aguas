@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="84dp"
+            android:layout_weight="1">
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/baner"
+                android:drawableTop="@drawable/bmenu"
+                android:ellipsize="none"
+                android:background="@android:color/transparent"
+                android:textColor="#3e20ff"
+                android:paddingBottom="40dp">
+        </Button>
+    </LinearLayout>
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <Button
+                    android:text="TOMAR LECTURAS"
+                    android:id="@+id/button"
+                    android:drawableTop="@drawable/anotar"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:onClick="toma_lectura"
+                    android:background="@android:color/transparent"
+                    android:textSize="30dp"
+                    android:textColor="#3e20ff">
+            </Button>
+
+            <Button
+                    android:drawableTop="@drawable/actualizar"
+                    android:layout_weight="1"
+                    android:text="DESCARGAR DATOS"
+                    android:id="@+id/button2"
+                    android:onClick="descargar"
+                    android:background="@android:color/transparent"
+                    android:textSize="30dp"
+                    android:textColor="#d05042">
+            </Button>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <Button
+                    android:id="@+id/button"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:background="@android:color/transparent"
+                    android:textColor="#3e20ff"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/button2"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:background="@android:color/transparent"
+                    android:textColor="#3e20ff"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <Button
+                    android:text="ENVIAR DATOS"
+                    android:id="@+id/button3"
+                    android:drawableTop="@drawable/env"
+                    android:layout_weight="1"
+                    android:onClick="enviar"
+                    android:background="@android:color/transparent"
+                    android:textSize="30dp"
+                    android:textColor="#050303">
+            </Button>
+
+            <Button
+                    android:id="@+id/sale"
+                    android:drawableTop="@drawable/salir"
+                    android:layout_weight="1"
+                    android:text="MENU PRINCIPAL"
+                    android:onClick="salir_lecturas"
+                    android:background="@android:color/transparent"
+                    android:textSize="30dp"
+                    android:textColor="#ad118c">
+            </Button>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

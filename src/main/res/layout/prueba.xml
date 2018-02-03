@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content" android:text="TOMAR LECTURAS"
+              android:textSize="20dp" android:textColor="#010001"
+              android:textStyle="bold|italic"/>
+    <!-- inicia el ScrollView -->
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <!-- se colocal el LinearLayout que contendra el formulario -->
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+            <TextView android:text="Nro Secuencia" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText   android:id="@+id/editText"
+                        android:autoText="true"
+                        android:enabled="false"
+                        android:editable="false"
+                        android:textStyle="bold"
+                        android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <TableRow
+                    android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+                <Button
+                        style="?android:attr/buttonStyleSmall"
+
+                        android:text="BUSCAR OTRO..."
+                        android:id="@+id/button3"
+                        android:onClick="otro"
+                        android:textStyle="bold|italic"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:width="10dp"
+                        android:layout_weight="1"/>
+
+                <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:text="FUERA DE RUTA..."
+                        android:id="@+id/button4"
+                        android:onClick="fuera"
+                        android:textStyle="bold|italic"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:width="10dp"
+                        android:layout_weight="1"/>
+            </TableRow>
+
+            <TextView android:text="Tipo y Nro de Medidior" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText   android:id="@+id/editText2"
+                        android:autoText="true"
+                        android:enabled="false"
+                        android:editable="false"
+                        android:textStyle="bold"
+                        android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <TableRow
+                    android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:text="BUSCAR"
+                    android:id="@+id/button5"
+                    android:visibility="visible"
+                    android:onClick="busca" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:width="10dp"
+                    android:layout_weight="1"/>
+
+            <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:text="CANCELAR"
+                    android:id="@+id/button6"
+                    android:onClick="cancelab"
+                    android:visibility="visible"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:width="10dp"
+                    android:layout_weight="1"/>
+            </TableRow>
+            <TextView android:text="Domicilio" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText   android:id="@+id/editText3"
+                        android:layout_weight="1"
+                        android:enabled="false"
+                        android:editable="false"
+                        android:textStyle="bold"
+                        android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <TextView android:text="Ubicacion" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText
+                    android:id="@+id/editText4"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:textStyle="bold"
+                    android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <TextView android:text="Observciones" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText   android:id="@+id/editText5"
+                        android:maxLength="250" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <TextView android:text="Lectura" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText
+                    android:id="@+id/editText6"
+                    android:inputType="numberDecimal" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <TextView android:text="Cod.Observacion" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <Spinner
+
+                    android:id="@+id/spinner"
+                    android:spinnerMode="dialog"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+            <TextView android:text="Obs.Adicionales" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText   android:id="@+id/editText8" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <TextView android:text="Cantidad de Disgitos" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText    android:id="@+id/editText9"
+                         android:numeric="integer"  android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <TextView android:text="Cod.Ubicacion" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <TextView android:text="Cod.LLave" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <TextView android:text="Cod.Acceso" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <Spinner
+                    android:id="@+id/spinner4"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <TextView
+
+                    android:text="Mediciones guardadas/totales"
+                    android:id="@+id/textView14"
+                    android:typeface="sans"
+                    android:textColor="#1a35ff"
+                    android:layout_gravity="center"
+                    android:textIsSelectable="false"  android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <TextView
+
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="999/999"
+                    android:id="@+id/textView15"
+                    android:textColor="#31ff13"
+                    android:visibility="visible"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"/>
+
+            <TextView
+
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/tvr"
+                    android:textIsSelectable="false"
+                    android:visibility="visible"
+                    android:text="Mediciones restantes"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"
+                    />
+
+            <TextView
+
+                    android:text="000"
+                    android:id="@+id/textView13"
+                    android:textColor="#ff0f31"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+
+            <Button
+
+                    android:text="GUARDAR"
+                    android:id="@+id/button2"
+                    android:onClick="guarda_mediciones"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Button
+
+                    android:text="MENU"
+                    android:id="@+id/button"
+                    android:onClick="irmenu"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

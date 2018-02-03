@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <TextView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="5dp"
+                    android:text="TRANSFERENCIA DE DATOS"
+                    android:textStyle="bold|italic"
+                    android:textColor="#010001"
+                    android:textSize="25dp"
+                    android:textIsSelectable="false"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/texto"
+                    android:text="Transfiriendo Datos..."
+                    android:textColor="#682cff"
+                    android:textSize="20dp"
+                    android:textIsSelectable="true"
+                    android:typeface="normal"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingTop="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Aceptar"
+                    android:id="@+id/buttontransfok"
+                    android:layout_weight="1"
+                    android:ellipsize="middle"
+                    android:drawableTop="@drawable/enviar"
+                    android:background="@android:color/transparent"
+
+                    android:textSize="30dp"
+                    android:singleLine="false"
+                    android:visibility="invisible"
+                    />
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="invisible">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/textView"
+                    android:visibility="invisible"
+                    android:textSize="10dp"
+                    android:textIsSelectable="false"
+                    android:textColor="#ff1735"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

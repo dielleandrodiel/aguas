@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content" android:text="ACTUALIZACION DE DATOS"
+              android:textSize="20dp" android:textColor="#010001"
+              android:paddingBottom="50dp"
+              android:textStyle="bold|italic"/>
+    <!-- inicia el ScrollView -->
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <!-- se colocal el LinearLayout que contendra el formulario -->
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+            <TextView android:text="NOMBRE DE USUARIO" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText  android:id="@+id/usuarioserver"
+                       android:inputType="text" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:textSize="25dp"
+                      android:textIsSelectable="false"/>
+            <TextView android:text="CONTRASEÑA" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <EditText
+                    android:id="@+id/claveserver"
+                    android:inputType="text|textPassword"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                    android:textSize="25dp"/>
+
+            <Button   android:id="@+id/ip_boton"
+                      android:text="ACTUALIZAR SISTEMA" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+            <Button  android:id="@+id/ip_volver"
+                     android:onClick="volverservidor"
+                     android:text="VOLVER" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            <TextView android:text="ERROR"  android:id="@+id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:visibility="invisible"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
