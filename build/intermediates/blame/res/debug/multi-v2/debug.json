@@ -1,0 +1,134 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,146",
+                        "endColumns": "57,55",
+                        "endOffsets": "141,197"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                },
+                {
+                    "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "5,3,9,7,8",
+                        "startColumns": "4,4,4,4,13",
+                        "startOffsets": "105,56,258,164,218",
+                        "endLines": "6,4,9,8,8",
+                        "endColumns": "13,13,39,13,48",
+                        "endOffsets": "159,100,293,218,253"
+                    },
+                    "to": {
+                        "startLines": "4,6,8,9,11",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "169,227,275,315,373",
+                        "endLines": "5,7,8,10,11",
+                        "endColumns": "13,13,39,13,39",
+                        "endOffsets": "222,270,310,368,408"
+                    }
+                },
+                {
+                    "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,510",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,665"
+                    },
+                    "to": {
+                        "startLines": "12,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "413,704",
+                        "endLines": "18,21",
+                        "endColumns": "12,12",
+                        "endOffsets": "699,859"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "177",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "309"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "220",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "366"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "186",
+                        "endColumns": "58",
+                        "endOffsets": "240"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        }
+    ]
+}

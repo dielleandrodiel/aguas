@@ -53,17 +53,8 @@ crashlytics.properties
 crashlytics-build.properties
 
 .idea/*.xml
-
-.gradle/
-gradle/
 aguas.iml
-build.gradle
-gradlew
-gradlew.bat
-build/
-local.properties
 copia_lecturasxml/
-libs/
 src/main/gen/
 medicionesXML/
 

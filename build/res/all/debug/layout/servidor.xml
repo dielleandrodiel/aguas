@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:android1="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/servidordatos"
+            android:drawableTop="@drawable/bservidordatos"
+            android:ellipsize="none"
+            android:background="@android:color/transparent"
+            android:textColor="#3e20ff"/>
+
+    <!-- inicia el ScrollView -->
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+        <!-- se colocal el LinearLayout que contendra el formulario -->
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <RadioGroup
+            android:id="@+id/radg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        <RadioButton
+                android:id="@+id/r0"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Servidor 1"
+                android:textSize="45dp"/>
+
+        <RadioButton
+                android:id="@+id/r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Servidor 2"
+                android:textSize="45dp"/>
+
+        <RadioButton
+                android:id="@+id/r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Servidor 3"
+                android:textSize="45dp"/>
+    </RadioGroup>
+
+    <Button
+            android:id="@+id/ip_boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ip_ok"
+            android:text="Aceptar"
+            android:textSize="60dp"
+            android:drawableTop="@drawable/aceptasrv"
+            android:ellipsize="none"
+            android:background="@android:color/transparent"
+            />
+
+</LinearLayout>

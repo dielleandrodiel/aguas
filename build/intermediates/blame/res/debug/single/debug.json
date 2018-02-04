@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_banner2.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\banner2.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_salir.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\salir.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_actualizar.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\actualizar.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_mediciones.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\mediciones.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_anotar.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\anotar.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_blecturas.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\blecturas.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_cel_fuera_ruta.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\cel_fuera_ruta.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ingreso.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\ingreso.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_validacion.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\validacion.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tomar.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\tomar.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_entrar.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\entrar.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_menu.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\menu.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_menu_opciones.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\menu_opciones.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lecturas3.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\lecturas3.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_enviar.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\enviar.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_servidor.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\servidor.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bmenu.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\bmenu.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_mopciones.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\mopciones.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_menu_principal.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\menu_principal.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_cel_validacion_serv.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\cel_validacion_serv.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_aceptasrv.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\aceptasrv.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_prueba.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\prueba.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_envio.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\envio.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btransf.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\btransf.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_password.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\password.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_cel_validacion.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\cel_validacion.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_descargar.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\descargar.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_env.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\env.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_recibe.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\recibe.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_validar.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\validar.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_enviar2.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\enviar2.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_banner.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\banner.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_servidor.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\servidor.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lecturas2.jpg.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\lecturas2.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bvalidarusr.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\bvalidarusr.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_validarenservidor.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\validarenservidor.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_fuera.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\fuera.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\layout_lecturas.xml.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\layout\\lecturas.xml"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bservidordatos.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\bservidordatos.png"
+    },
+    {
+        "merged": "C:\\workspace\\Android\\Fuentes\\aguas\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bactualizard.png.flat",
+        "source": "C:\\workspace\\Android\\Fuentes\\aguas\\src\\main\\res\\drawable-hdpi\\bactualizard.png"
+    }
+]
